@@ -5,3 +5,9 @@ def test_return_strings():
     actual = return_strings_twice(message = test_strings)
     expected = "Hello, World.Hello, World."
     assert actual == expected
+
+def test_return_strings_again():
+    test_strings = "Hello, GitHub."
+    actual = return_strings_twice(message = test_strings)
+    expected = "Hello, GitHub.Hello, GitHub."
+    assert actual == expected
